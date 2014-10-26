@@ -1,7 +1,8 @@
 ## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## functions do :
+ ## The two functions allow to calculate the inverse of an invertible matrix, 
+ ## and store its value. If the inverse was calculated already, then just 
+ ## pass skip the calculation and kepe the value.
 
 makeCacheMatrix <- function(x=matrix()) {      ## Create a function with name 
                                                 ## makeCacheMatrix with a 
